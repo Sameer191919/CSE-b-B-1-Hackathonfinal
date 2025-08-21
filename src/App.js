@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import "./App.css";
+import "./App.css";git branch -M main
+
 
 const motivationalQuotes = [
   "Stay focused and never give up!",
