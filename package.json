@@ -1,0 +1,25 @@
+{
+  "name": "task-timer-productivity-tracker",
+  "version": "1.0.0",
+  "description": "Pomodoro-based task timer with productivity tracking, goals, quotes, sounds, and a local leaderboard.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js"
+  },
+  "keywords": [
+    "pomodoro",
+    "productivity",
+    "timer",
+    "leaderboard"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "nanoid": "^5.0.7"
+  }
+}

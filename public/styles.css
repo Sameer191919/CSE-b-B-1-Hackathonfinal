@@ -1,0 +1,10 @@
+body{background:#0f172a0d}
+.navbar-brand{letter-spacing:.5px}
+.display-1{font-variant-numeric:tabular-nums}
+.stat-card{background:#fff;border-radius:1rem;padding:1rem;box-shadow:0 5px 20px rgba(0,0,0,.04)}
+.stat-label{font-size:.9rem;color:#6c757d}
+.stat-value{font-size:1.4rem;font-weight:700}
+.list-group-item .time-spent{font-size:.85rem;color:#6c757d}
+.badge.rounded-pill{font-weight:600}
+.progress{height:14px}
+#quoteBox{min-height:48px}
