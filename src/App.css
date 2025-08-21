@@ -1,0 +1,187 @@
+/* Background animation */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #3a6073);
+  background-size: 400% 400%;
+  animation: gradient 12s ease infinite;
+  color: #fff;
+  text-align: center;
+}
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Header */
+header {
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffdd57;
+}
+header p {
+  font-size: 14px;
+  color: #ddd;
+}
+
+/* Glass Cards */
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 350px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+/* Timer Circle with Progress */
+.circle {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  margin: 15px auto;
+}
+.progress-ring {
+  transform: rotate(-90deg);
+}
+.progress-ring__circle {
+  transition: stroke-dashoffset 0.5s;
+}
+.circle h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffdd57;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 18px;
+  margin: 5px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.primary {
+  background: #00c853;
+  color: white;
+}
+.primary:hover { background: #00e676; }
+.danger {
+  background: #d32f2f;
+  color: white;
+}
+.danger:hover { background: #f44336; }
+
+/* Tasks */
+.task-input input {
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  width: 60%;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin: 8px;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: 0.3s;
+}
+li:hover { background: rgba(255, 255, 255, 0.2); }
+li.completed {
+  text-decoration: line-through;
+  background: rgba(76, 175, 80, 0.6);
+}
+
+/* Progress Bar */
+.progress-bar {
+  background: rgba(255,255,255,0.2);
+  border-radius: 8px;
+  height: 12px;
+  width: 100%;
+  margin-top: 10px;
+}
+.progress-fill {
+  background: linear-gradient(90deg, #00e676, #00c853);
+  height: 100%;
+  border-radius: 8px;
+  transition: width 0.5s ease-in-out;
+}
+
+/* Quote */
+.quote {
+  font-style: italic;
+  color: #ffdd57;
+  margin: 10px auto;
+  width: 280px;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.app.dark {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+.app.light {
+  background: #f0f0f0;
+  color: #222;
+}
+
+header {
+  padding: 20px;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 350px;
+  backdrop-filter: blur(10px);
+}
+
+.settings label {
+  display: block;
+  margin: 8px 0;
+}
+
+.settings input {
+  margin-left: 8px;
+  width: 50px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  margin: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.primary { background: #00c853; color: white; }
+.danger { background: #d32f2f; color: white; }
+.theme-toggle { background: #ffdd57; }
+.completed {
+  text-decoration: line-through;
+  color: #00e676;
+}
