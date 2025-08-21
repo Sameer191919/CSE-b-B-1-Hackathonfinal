@@ -58,6 +58,7 @@ function App() {
   ];
 
   // Reset daily goals + streak logic
+  //...
   useEffect(() => {
     const today = new Date().toDateString();
     if (userStats.lastActivityDate !== today) {
